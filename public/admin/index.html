@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>后台管理系统</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .preload {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+      }
+  
+      .circular {
+        height: 42px;
+        width: 42px;
+        animation: loading-rotate 2s linear infinite;
+      }
+  
+      .circular .path {
+        animation: loading-dash 1.5s ease-in-out infinite;
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: 0;
+        stroke-width: 2;
+        stroke: #4073fa;
+        stroke-linecap: round;
+      }
+  
+      @keyframes loading-rotate {
+        100% {
+          transform: rotate(1turn);
+        }
+      }
+  
+      @keyframes loading-dash {
+  
+        0% {
+          stroke-dasharray: 90, 150;
+          stroke-dashoffset: -40px;
+        }
+  
+        100% {
+          stroke-dasharray: 90, 150;
+          stroke-dashoffset: -120px;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/admin/assets/index.881dcebb.js"></script>
+    <link rel="modulepreload" crossorigin href="/admin/assets/@vue.dfea2d30.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/lodash-es.f52bd8b1.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/async-validator.fb49d0f5.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/@vueuse.29b489e3.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/@element-plus.36601d8a.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/axios.0fee1ac1.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/dayjs.118a1d63.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/@popperjs.36402333.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/@ctrl.82a509e0.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/normalize-wheel-es.8aeb3683.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/element-plus.c171b4f3.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/lodash.6b33b650.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/vue-router.9d4d3767.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/pinia.b9396de9.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/clone.21471390.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/color-name.e7a4e1d3.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/color-convert.755d189f.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/color-string.e356f5de.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/color.db38fb11.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/balanced-match.d2a36341.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/ms.564e106c.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/css-color-function.0b1d1468.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/nprogress.988d93fe.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/clipboard.802e3b4c.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/vue-clipboard3.d44f8fc1.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/tslib.60310f1a.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/zrender.84752e5a.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/echarts.db1d6bb4.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/highlight.js.4ebdf9a4.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/@highlightjs.7c69c760.js">
+    <link rel="stylesheet" href="/admin/assets/element-plus.e96e47f5.css">
+    <link rel="stylesheet" href="/admin/assets/nprogress.f5128a35.css">
+    <link rel="stylesheet" href="/admin/assets/highlight.5f5db245.css">
+    <link rel="stylesheet" href="/admin/assets/index.959ef8d0.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="preload">
+        <svg viewBox="25 25 50 50" class="circular">
+          <circle cx="50" cy="50" r="20" fill="none" class="path"></circle>
+        </svg>
+      </div>
+    </div>
+    
+  </body>
+</html>

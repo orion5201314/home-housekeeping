@@ -1,0 +1,1 @@
+import{d as o,o as s,c as l,G as a,$ as n}from"./@vue.dfea2d30.js";const c=o({__name:"widget-root",props:{styles:null},setup(t){return(e,d)=>(s(),l("div",{class:"widget-root",style:n({padding:`${t.styles.padding_top}px ${t.styles.padding_horizontal}px ${t.styles.padding_bottom}px`,"background-color":t.styles.root_bg_color})},[a(e.$slots,"default")],4))}});export{c as _};

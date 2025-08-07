@@ -1,0 +1,1 @@
+import{r as e}from"./index.881dcebb.js";function n(){return e.get({url:"/marketing.recharge/getSettings"})}function i(t){return e.post({url:"/marketing.recharge/setSettings",params:t})}function g(){return e.get({url:"/marketing.kefu_config/getConfig"})}function a(t){return e.post({url:"/marketing.kefu_config/setConfig",params:t})}export{n as a,i as b,g as c,a as d};

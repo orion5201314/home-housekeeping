@@ -1,0 +1,1 @@
+import{a7 as t}from"./index.ceec0680.js";const a=a=>t.get({url:"/goods/lists",data:a}),o=a=>t.get({url:"/goods/detail",data:a}),s=a=>t.get({url:"/goods_category/lists",data:a}),e=a=>t.get({url:"/goods_comment/lists",data:a}),d=a=>t.get({url:"/goods_comment/commentCategory",data:a});export{e as a,d as b,a as c,s as d,o as e};

@@ -1,0 +1,1 @@
+import{a7 as a}from"./index.ceec0680.js";const t=t=>a.get({url:"/account_log/lists",data:t},{ignoreCancel:!0}),e=t=>a.get({url:"/withdraw/getConfig",data:t}),r=t=>a.post({url:"/withdraw/apply",data:t}),s=t=>a.get({url:"/withdraw/lists",data:t}),d=t=>a.get({url:"/withdraw/detail",data:t});export{s as a,d as b,t as c,e as d,r as e};

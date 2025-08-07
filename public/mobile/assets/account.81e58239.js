@@ -1,0 +1,1 @@
+import{am as a,an as t}from"./index-81cd8d96.js";const n=n=>a.post({url:"/login/account",data:{...n,terminal:t}});function r(n){return a.post({url:"/login/register",data:{...n,channel:t}})}function o(t,n){return a.post({url:"/login/updateUser",data:t,header:n})}export{n as l,r,o as u};

@@ -1,0 +1,1 @@
+import{r as a}from"./index.881dcebb.js";function p(t){return a.get({url:"/staff.staff_apply/lists",params:t})}function s(t){return a.get({url:"/staff.staff_apply/detail",params:t})}function e(t){return a.post({url:"/staff.staff_apply/apply",params:t})}export{e as a,s as b,p as c};

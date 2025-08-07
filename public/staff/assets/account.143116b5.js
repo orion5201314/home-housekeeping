@@ -1,0 +1,1 @@
+import{a7 as a,at as t}from"./index.ceec0680.js";const n=n=>a.post({url:"/login/login",data:{...n,terminal:t}});function r(n){return a.post({url:"/login/register",data:{...n,channel:t}})}export{n as l,r};

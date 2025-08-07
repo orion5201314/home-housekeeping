@@ -1,0 +1,1 @@
+import"./widget-root.vue_vue_type_script_setup_true_lang.40b0320b.js";import{_ as t}from"./widget-root.vue_vue_type_script_setup_true_lang.40b0320b.js";import"./@vue.dfea2d30.js";export{t as default};

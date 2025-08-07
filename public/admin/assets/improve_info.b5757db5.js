@@ -1,0 +1,1 @@
+import{r as t}from"./index.881dcebb.js";function f(r){return t.get({url:"/staff.staff_improve_info/lists",params:r})}function o(r){return t.get({url:"/staff.staff_improve_info/detail",params:r})}function a(r){return t.post({url:"/staff.staff_improve_info/verify",params:r})}export{a,o as b,f as c};

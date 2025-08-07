@@ -1,0 +1,1 @@
+import{r as a}from"./index.881dcebb.js";function e(t){return a.get({url:"/finance.staff_account_log/lists",params:t})}function s(t){return a.get({url:"/finance.staff_account_log/changeTypeLists",params:t})}export{e as a,s as g};
